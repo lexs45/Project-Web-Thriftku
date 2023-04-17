@@ -1,0 +1,38 @@
+.temp-thrift{
+    /* border: solid red; */
+    width: 100%;
+    height: fit-content;
+    box-sizing: border-box;
+}
+.buttonThrift a{
+    box-sizing: border-box;
+    /* border: solid white; */
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+.temp-button{
+    /* border: solid blue; */
+    height: 7vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    border-radius: 10px;
+    align-items: center;
+    transition: 0.5s;
+    color: white;
+}
+.temp-button:hover{
+    /* text-decoration: none; */
+    color: black;
+    background-color: white;
+}
+
+.temp-button h4{
+    text-align: center;
+    /* color: white; */
+    font-size: 20px;
+}
