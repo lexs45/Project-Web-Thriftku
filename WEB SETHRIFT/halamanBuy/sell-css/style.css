@@ -4861,7 +4861,10 @@ input[type="button"].btn-block {
   padding-left: 0;
   list-style: none;
 }
-
+.bolder-mb{
+  color: #000;
+  font-weight: 600;
+}
 .page-link {
   
   position: relative;
@@ -4878,6 +4881,7 @@ input[type="button"].btn-block {
   z-index: 2;
   color: black;
   text-decoration: none;
+  /* background-color: red; */
   background-color: #D9D9D9;
   border-color: #dee2e6;
 }
