@@ -1,10 +1,11 @@
-.temp-thrift{
+.temp-thrift {
     /* border: solid red; */
     width: 100%;
     height: fit-content;
     box-sizing: border-box;
 }
-.buttonThrift a{
+
+.buttonThrift a {
     box-sizing: border-box;
     /* border: solid white; */
     width: 100%;
@@ -13,7 +14,8 @@
     justify-content: center;
     text-decoration: none;
 }
-.temp-button{
+
+.temp-button {
     /* border: solid blue; */
     height: 7vh;
     width: 50%;
@@ -25,14 +27,50 @@
     transition: 0.5s;
     color: white;
 }
-.temp-button:hover{
+
+.temp-button:hover {
     /* text-decoration: none; */
     color: black;
     background-color: white;
 }
 
-.temp-button h4{
+.temp-button h4 {
     text-align: center;
     /* color: white; */
     font-size: 20px;
+}
+
+.text-p {
+    /* font-size: px; */
+    color: white;
+    text-align: center;
+    /* border: solid red; */
+}
+
+.text-p p {
+    /* border: solid red; */
+    color: white;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    /* font-size: 40px; */
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    /* border: solid black; */
+    /* background-color: red; */
+}
+
+.bg-secondary {
+    background-color: #fff !important;
+}
+
+a.bg-secondary:hover,
+a.bg-secondary:focus,
+button.bg-secondary:hover,
+button.bg-secondary:focus {
+    background-color: #959595 !important;
 }
