@@ -4832,6 +4832,13 @@ input[type="button"].btn-block {
   text-shadow: 1px 1px #000;
 }
 
+.submition_checkout{
+  /* border: solid red; */
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+}
+
 .icon-tengah img{
   filter: opacity(0.6);
   width: 70px;
