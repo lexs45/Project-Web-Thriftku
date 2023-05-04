@@ -2740,7 +2740,8 @@ fieldset:disabled a.btn {
   padding-top: 20px;
 
 }
-.content-list li{
+.content-list a li{
+  color: black;
   list-style: square;
   /* text-align: ; */
   height: 5vh;
@@ -2751,6 +2752,10 @@ fieldset:disabled a.btn {
   /* margin: 0 auto; */
   margin-bottom: 10px;
 
+}
+.content-list a li:hover{
+  color: #4B4F4E;
+  text-decoration: underline;
 }
 .div-contentbawah{
   display: flex;
