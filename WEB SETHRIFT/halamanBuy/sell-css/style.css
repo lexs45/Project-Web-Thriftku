@@ -2699,6 +2699,92 @@ fieldset:disabled a.btn {
 .btn-warning:not(:disabled):not(.disabled):active:focus, .btn-warning:not(:disabled):not(.disabled).active:focus,
 .show > .btn-warning.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(222, 170, 12, 0.5);
+
+}
+
+.container-content-Bantuan{
+  /* border: solid red; */
+  width: 100%;
+  height: 200vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.wadah-content{
+  /* border: solid blue; */
+  width: 80%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.divH1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  background-color: #D2D2D2;
+  /* border: solid red; */
+  width: 75%;
+}
+.content-list{
+  width: 75%;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #D2D2D2;
+  padding-top: 20px;
+
+}
+.content-list li{
+  list-style: square;
+  /* text-align: ; */
+  height: 5vh;
+  font-size: 20px;
+  width: 50vw;
+  padding-left: 10px;
+  border-bottom:1px solid #D2D2D2;
+  /* margin: 0 auto; */
+  margin-bottom: 10px;
+
+}
+.div-contentbawah{
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /* border: solid green; */
+  width: 80%;
+  height: 80vh;
+}
+.col-temp2{
+  /* border: solid red; */
+  /* overflow: hidden; */
+  /* position: relative; */
+  width: 60%;
+  box-sizing: border-box;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.contentbawah{
+  /* border: solid black; */
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.text-bawah{
+  /* border: solid red; */
+  width: 80%;
+  height: fit-content;
+  margin-bottom: 20px;
+  font-size: 12px;
+  text-align: center;
 }
 
 .btn-danger {
@@ -3495,6 +3581,17 @@ input[type="button"].btn-block {
   border: 1px solid #EDF1FF;
 
 }
+
+.container-fkl{
+  border: solid red;
+  display: flex;
+  justify-content: center;
+  width: 30%;
+  background-color: black;
+}
+
+
+
 .btn-minus:hover{
   background-color: #575C5B;
   color: white;
